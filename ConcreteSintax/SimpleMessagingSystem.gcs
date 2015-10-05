@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gcs:MetamodelGD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gcs="http://www.lcc.uma.es/GCS/1.0" name="@SIMPLEMESSAGINGSYSTEM@">
   <packagesGD name="simplemessagingsystem">
+    <classesGD name="Container">
+      <class href="../Metamodel/SimpleMessagingSystem.ecore#//Container"/>
+    </classesGD>
+    <classesGD name="Node">
+      <class href="../Metamodel/SimpleMessagingSystem.ecore#//Node"/>
+    </classesGD>
+    <classesGD name="Channel">
+      <class href="../Metamodel/SimpleMessagingSystem.ecore#//Channel"/>
+    </classesGD>
+    <classesGD name="Message">
+      <class href="../Metamodel/SimpleMessagingSystem.ecore#//Message"/>
+    </classesGD>
+    <classesGD name="Reply">
+      <class href="../Metamodel/SimpleMessagingSystem.ecore#//Reply"/>
+    </classesGD>
+    <classesGD name="Request">
+      <class href="../Metamodel/SimpleMessagingSystem.ecore#//Request"/>
+    </classesGD>
     <package href="../Metamodel/SimpleMessagingSystem.ecore#/"/>
   </packagesGD>
 </gcs:MetamodelGD>

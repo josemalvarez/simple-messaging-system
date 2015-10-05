@@ -7,7 +7,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Channel" eSuperTypes="#//Container"/>
   <eClassifiers xsi:type="ecore:EClass" name="Message">
     <eStructuralFeatures xsi:type="ecore:EReference" name="at" lowerBound="1" eType="#//Container"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Reply" eSuperTypes="#//Message"/>
   <eClassifiers xsi:type="ecore:EClass" name="Request" eSuperTypes="#//Message"/>

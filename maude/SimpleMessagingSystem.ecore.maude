@@ -1,0 +1,155 @@
+---- ----------------------------------------------- ----
+---- Programmatically generated code using e-Motions ----
+---- @date Mon Oct 05 09:03:14 CDT 2015             ----
+---- ----------------------------------------------- ----
+
+mod @SIMPLEMESSAGINGSYSTEM@ is
+  pr @ECORE@ .
+    
+  sort Container@simplemessagingsystem .
+  sort Node@simplemessagingsystem .
+  sort Channel@simplemessagingsystem .
+  sort Message@simplemessagingsystem .
+  sort Reply@simplemessagingsystem .
+  sort Request@simplemessagingsystem .
+    
+  subsort Container@simplemessagingsystem < @Class .
+  subsort Node@simplemessagingsystem < Container@simplemessagingsystem .
+  subsort Channel@simplemessagingsystem < Container@simplemessagingsystem .
+  subsort Message@simplemessagingsystem < @Class .
+  subsort Reply@simplemessagingsystem < Message@simplemessagingsystem .
+  subsort Request@simplemessagingsystem < Message@simplemessagingsystem .
+    
+  op @simplemessagingsystem@ : -> @Metamodel  .
+  op simplemessagingsystem : -> @Package  .
+  op Container@simplemessagingsystem : -> Container@simplemessagingsystem  .
+  op Node@simplemessagingsystem : -> Node@simplemessagingsystem  .
+  op Channel@simplemessagingsystem : -> Channel@simplemessagingsystem  .
+  op Message@simplemessagingsystem : -> Message@simplemessagingsystem  .
+  op Reply@simplemessagingsystem : -> Reply@simplemessagingsystem  .
+  op Request@simplemessagingsystem : -> Request@simplemessagingsystem  .
+  op at@Message@simplemessagingsystem : -> @Reference  .
+  op id@Message@simplemessagingsystem : -> @Attribute  .
+    
+  eq name(@simplemessagingsystem@)
+    = "simplemessagingsystem" .
+  eq packages(@simplemessagingsystem@)
+    = simplemessagingsystem .
+  eq name(simplemessagingsystem)
+    = "simplemessagingsystem" .
+  eq metamodel(simplemessagingsystem)
+    = @simplemessagingsystem@ .
+  eq superPackage(simplemessagingsystem)
+    = null .
+  eq subPackages(simplemessagingsystem)
+    = nil .
+  eq classes(simplemessagingsystem)
+    = __(Container@simplemessagingsystem, Node@simplemessagingsystem, Channel@simplemessagingsystem, Message@simplemessagingsystem, Reply@simplemessagingsystem, Request@simplemessagingsystem) .
+  eq name(Container@simplemessagingsystem)
+    = "Container" .
+  eq isAbstract(Container@simplemessagingsystem)
+    = false .
+  eq package(Container@simplemessagingsystem)
+    = simplemessagingsystem .
+  eq superTypes(Container@simplemessagingsystem)
+    = nil .
+  eq references(Container@simplemessagingsystem)
+    = nil .
+  eq attributes(Container@simplemessagingsystem)
+    = nil .
+  eq name(Node@simplemessagingsystem)
+    = "Node" .
+  eq isAbstract(Node@simplemessagingsystem)
+    = false .
+  eq package(Node@simplemessagingsystem)
+    = simplemessagingsystem .
+  eq superTypes(Node@simplemessagingsystem)
+    = Container@simplemessagingsystem .
+  eq references(Node@simplemessagingsystem)
+    = nil .
+  eq attributes(Node@simplemessagingsystem)
+    = nil .
+  eq name(Channel@simplemessagingsystem)
+    = "Channel" .
+  eq isAbstract(Channel@simplemessagingsystem)
+    = false .
+  eq package(Channel@simplemessagingsystem)
+    = simplemessagingsystem .
+  eq superTypes(Channel@simplemessagingsystem)
+    = Container@simplemessagingsystem .
+  eq references(Channel@simplemessagingsystem)
+    = nil .
+  eq attributes(Channel@simplemessagingsystem)
+    = nil .
+  eq name(Message@simplemessagingsystem)
+    = "Message" .
+  eq isAbstract(Message@simplemessagingsystem)
+    = false .
+  eq package(Message@simplemessagingsystem)
+    = simplemessagingsystem .
+  eq superTypes(Message@simplemessagingsystem)
+    = nil .
+  eq references(Message@simplemessagingsystem)
+    = at@Message@simplemessagingsystem .
+  eq attributes(Message@simplemessagingsystem)
+    = id@Message@simplemessagingsystem .
+  eq name(Reply@simplemessagingsystem)
+    = "Reply" .
+  eq isAbstract(Reply@simplemessagingsystem)
+    = false .
+  eq package(Reply@simplemessagingsystem)
+    = simplemessagingsystem .
+  eq superTypes(Reply@simplemessagingsystem)
+    = Message@simplemessagingsystem .
+  eq references(Reply@simplemessagingsystem)
+    = nil .
+  eq attributes(Reply@simplemessagingsystem)
+    = nil .
+  eq name(Request@simplemessagingsystem)
+    = "Request" .
+  eq isAbstract(Request@simplemessagingsystem)
+    = false .
+  eq package(Request@simplemessagingsystem)
+    = simplemessagingsystem .
+  eq superTypes(Request@simplemessagingsystem)
+    = Message@simplemessagingsystem .
+  eq references(Request@simplemessagingsystem)
+    = nil .
+  eq attributes(Request@simplemessagingsystem)
+    = nil .
+  eq name(at@Message@simplemessagingsystem)
+    = "at" .
+  eq type(at@Message@simplemessagingsystem)
+    = Container@simplemessagingsystem .
+  eq opposite(at@Message@simplemessagingsystem)
+    = null .
+  eq lowerBound(at@Message@simplemessagingsystem)
+    = 1 .
+  eq upperBound(at@Message@simplemessagingsystem)
+    = 1 .
+  eq containingClass(at@Message@simplemessagingsystem)
+    = Message@simplemessagingsystem .
+  eq isContainment(at@Message@simplemessagingsystem)
+    = false .
+  eq isOrdered(at@Message@simplemessagingsystem)
+    = true .
+  eq isUnique(at@Message@simplemessagingsystem)
+    = true .
+  eq name(id@Message@simplemessagingsystem)
+    = "id" .
+  eq type(id@Message@simplemessagingsystem)
+    = @String .
+  eq lowerBound(id@Message@simplemessagingsystem)
+    = 1 .
+  eq upperBound(id@Message@simplemessagingsystem)
+    = 1 .
+  eq containingClass(id@Message@simplemessagingsystem)
+    = Message@simplemessagingsystem .
+  eq isId(id@Message@simplemessagingsystem)
+    = false .
+  eq isOrdered(id@Message@simplemessagingsystem)
+    = true .
+  eq isUnique(id@Message@simplemessagingsystem)
+    = true .
+    
+endm ---- end system module @SIMPLEMESSAGINGSYSTEM@

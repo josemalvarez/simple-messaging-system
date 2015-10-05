@@ -1,0 +1,21 @@
+---- ----------------------------------------------- ----
+---- Programmatically generated code using e-Motions ----
+---- @date Mon Oct 05 09:03:14 CDT 2015             ----
+---- ----------------------------------------------- ----
+
+mod @SIMPLEMESSAGINGSYSTEM@BEHAVIOR@ is
+  pr E-MOTIONS .
+  pr DISCRETE_TIME .
+  pr @SIMPLEMESSAGINGSYSTEM@ .
+    
+  op at@OCLSf : -> @StructuralFeature  .
+  op id@OCLSf : -> @StructuralFeature  .
+    
+  eq name(at@OCLSf)
+    = "at" .
+  eq name(id@OCLSf)
+    = "id" .
+  eq rulesInformation
+    = _`{_`}(@MGBehavior@, none) .
+    
+endm ---- end system module @SIMPLEMESSAGINGSYSTEM@BEHAVIOR@

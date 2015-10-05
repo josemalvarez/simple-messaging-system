@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gcs="http://www.lcc.uma.es/GCS/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_6ytEYGdkEeW67PKQ7W1pLw" type="GCS" name="SimpleMessagingSystem.gcs_diagram" measurementUnit="Pixel">
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_6ytEYWdkEeW67PKQ7W1pLw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:gcs="http://www.lcc.uma.es/GCS/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_O-wXwGtnEeWRt5rJ3hzIeA" type="GCS" name="SimpleMessagingSystem.gcs_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_PGWNgGtnEeWRt5rJ3hzIeA" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_PGW0kGtnEeWRt5rJ3hzIeA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_PGW0kWtnEeWRt5rJ3hzIeA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_PGae8GtnEeWRt5rJ3hzIeA" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_PGbGAGtnEeWRt5rJ3hzIeA" type="5001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_PGae8WtnEeWRt5rJ3hzIeA" fontName=".SF NS Text"/>
+        <element xmi:type="gcs:ClassGD" href="SimpleMessagingSystem.gcs#//@packagesGD.0/@classesGD.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGae8mtnEeWRt5rJ3hzIeA" x="4" y="34"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_PGbGAWtnEeWRt5rJ3hzIeA" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_PGbtEGtnEeWRt5rJ3hzIeA" type="5001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_PGbGAmtnEeWRt5rJ3hzIeA" fontName=".SF NS Text"/>
+        <element xmi:type="gcs:ClassGD" href="SimpleMessagingSystem.gcs#//@packagesGD.0/@classesGD.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGbGA2tnEeWRt5rJ3hzIeA" x="67" y="34"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_PGbtEWtnEeWRt5rJ3hzIeA" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_PGcUIGtnEeWRt5rJ3hzIeA" type="5001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_PGbtEmtnEeWRt5rJ3hzIeA" fontName=".SF NS Text"/>
+        <element xmi:type="gcs:ClassGD" href="SimpleMessagingSystem.gcs#//@packagesGD.0/@classesGD.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGbtE2tnEeWRt5rJ3hzIeA" x="130" y="34"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_PGcUIWtnEeWRt5rJ3hzIeA" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_PGc7MGtnEeWRt5rJ3hzIeA" type="5001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_PGcUImtnEeWRt5rJ3hzIeA" fontName=".SF NS Text"/>
+        <element xmi:type="gcs:ClassGD" href="SimpleMessagingSystem.gcs#//@packagesGD.0/@classesGD.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGcUI2tnEeWRt5rJ3hzIeA" x="202" y="34"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_PGdiQGtnEeWRt5rJ3hzIeA" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_PGeJUGtnEeWRt5rJ3hzIeA" type="5001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_PGdiQWtnEeWRt5rJ3hzIeA" fontName=".SF NS Text"/>
+        <element xmi:type="gcs:ClassGD" href="SimpleMessagingSystem.gcs#//@packagesGD.0/@classesGD.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGdiQmtnEeWRt5rJ3hzIeA" x="274" y="34"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_PGeJUWtnEeWRt5rJ3hzIeA" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_PGeJVGtnEeWRt5rJ3hzIeA" type="5001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_PGeJUmtnEeWRt5rJ3hzIeA" fontName=".SF NS Text"/>
+        <element xmi:type="gcs:ClassGD" href="SimpleMessagingSystem.gcs#//@packagesGD.0/@classesGD.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGeJU2tnEeWRt5rJ3hzIeA" x="351" y="30"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_PGW0kmtnEeWRt5rJ3hzIeA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PGW0k2tnEeWRt5rJ3hzIeA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PGW0lGtnEeWRt5rJ3hzIeA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_PGW0lWtnEeWRt5rJ3hzIeA" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_PGW0lmtnEeWRt5rJ3hzIeA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PGW0l2tnEeWRt5rJ3hzIeA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PGW0mGtnEeWRt5rJ3hzIeA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_PGWNgWtnEeWRt5rJ3hzIeA" fontName=".SF NS Text"/>
+    <element xmi:type="gcs:PackageGD" href="SimpleMessagingSystem.gcs#//@packagesGD.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PGWNgmtnEeWRt5rJ3hzIeA" width="469"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_O-wXwWtnEeWRt5rJ3hzIeA"/>
   <element xmi:type="gcs:MetamodelGD" href="SimpleMessagingSystem.gcs#/"/>
 </notation:Diagram>
